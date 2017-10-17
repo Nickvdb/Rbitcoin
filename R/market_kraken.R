@@ -332,6 +332,12 @@ kraken_api_dict <- function(){
   api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_order_book(base = base, quote = quote)
   api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_place_limit_order(base = base, quote = quote)
   
+  base = 'LTC'; quote = 'BTC'
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_ticker(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_trades(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_order_book(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_place_limit_order(base = base, quote = quote)
+               
   base = 'BTC'; quote = 'GBP'
   api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_ticker(base = base, quote = quote)
   api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_trades(base = base, quote = quote)
@@ -381,6 +387,42 @@ kraken_api_dict <- function(){
   api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_place_limit_order(base = base, quote = quote)
                
   base = 'XRP'; quote = 'BTC'
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_ticker(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_trades(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_order_book(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_place_limit_order(base = base, quote = quote)
+        
+  base = 'DASH'; quote = 'EUR'
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_ticker(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_trades(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_order_book(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_place_limit_order(base = base, quote = quote)
+               
+  base = 'DASH'; quote = 'BTC'
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_ticker(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_trades(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_order_book(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_place_limit_order(base = base, quote = quote)
+         
+  base = 'REP'; quote = 'EUR'
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_ticker(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_trades(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_order_book(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_place_limit_order(base = base, quote = quote)
+               
+  base = 'REP'; quote = 'BTC'
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_ticker(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_trades(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_order_book(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_place_limit_order(base = base, quote = quote)
+               
+  base = 'ZEC'; quote = 'EUR'
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_ticker(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_trades(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_order_book(base = base, quote = quote)
+  api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_place_limit_order(base = base, quote = quote)
+               
+  base = 'ZEC'; quote = 'BTC'
   api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_ticker(base = base, quote = quote)
   api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_trades(base = base, quote = quote)
   api.dict.list[[length(api.dict.list)+1]] <- kraken_api_dict_order_book(base = base, quote = quote)
